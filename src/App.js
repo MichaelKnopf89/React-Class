@@ -13,8 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <CreateTweet textInput={textInput} setTextInput={setTextInput} tweets={tweets} setTweets={setTweets}/>
-      <TweetList  name={name} tweets={tweets} />
+      <CreateTweet textInput={textInput} setTextInput={setTextInput} 
+                    tweets={tweets} setTweets={setTweets}/>
+      <TweetList  name={name} tweets={tweets} setTweets={setTweets} />
     </div>
   );
 }
